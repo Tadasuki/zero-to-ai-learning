@@ -37,7 +37,7 @@ def main():
         "meta": {
             "title": "从零开始学 AI",
             "subtitle": "五个项目，从零建立完整 AI 入门路线",
-            "version": "0.4.0",
+            "version": "0.4.1",
             "githubUrl": "https://github.com/Tadasuki/zero-to-ai-learning",
             "courses": [
                 {"id": "course-01", "number": "01", "title": "神经网络识别手写数字", "summary": "输入、权重、激活、损失、反向传播、梯度下降。"},
