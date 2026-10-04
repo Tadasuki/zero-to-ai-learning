@@ -10,3 +10,8 @@ dependencies = [
 
 [tool.uv]
 package = false
+
+# Cloudflare Pages 会在构建前执行 `pip install .`。本仓库是课程网站和
+# 练习素材集合，不应把 site/ 或 starter/ 自动识别成 Python 包。
+[tool.setuptools]
+py-modules = []
