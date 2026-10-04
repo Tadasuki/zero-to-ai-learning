@@ -2,7 +2,7 @@
 
 这是一个自用的 AI 学习系统与学习笔记，也开放给朋友和所有想从零开始的人。学习者不会先拿到完成品，而是从第一行 Python 开始，逐步亲手完成五个 AI 项目。
 
-在线学习网站将在 Cloudflare Pages 发布；仓库主页与最新部署地址见项目说明栏。
+在线学习网站：[https://zero-to-ai-learning.pages.dev](https://zero-to-ai-learning.pages.dev)
 
 ## 学习入口
 
