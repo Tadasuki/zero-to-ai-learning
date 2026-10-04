@@ -1,0 +1,4 @@
+Zero to AI practice kits 0.5.0
+课程：5
+练习小节：75
+进阶课程示例数据：4 份

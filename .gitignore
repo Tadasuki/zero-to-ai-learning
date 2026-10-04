@@ -1,7 +1,7 @@
 .venv/
 .wrangler/
 __pycache__/
-site/__pycache__/
+website/__pycache__/
 *.pyc
 data/*.npz
 data/*.gz
