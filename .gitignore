@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+site/__pycache__/
+*.pyc
+data/*.npz
+data/*.gz
+artifacts/*.npz
+artifacts/*.json
+artifacts/*.png
+.DS_Store
+
+# 教师本地参考实现：不随学员素材发布到 GitHub
+/01_toy_backprop.py
+/mlp.py
+/train.py
+/predict.py
+/draw_digit.py

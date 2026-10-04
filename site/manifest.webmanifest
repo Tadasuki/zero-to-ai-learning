@@ -1,0 +1,15 @@
+{
+  "name": "从零开始学 AI · 五课项目路线",
+  "short_name": "零基础 AI",
+  "lang": "zh-CN",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f7f9f8",
+  "theme_color": "#203444",
+  "icons": [{
+    "src": "favicon.svg",
+    "sizes": "any",
+    "type": "image/svg+xml",
+    "purpose": "any maskable"
+  }]
+}

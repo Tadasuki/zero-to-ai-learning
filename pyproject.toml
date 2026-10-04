@@ -1,0 +1,12 @@
+[project]
+name = "mlp-mnist-from-scratch"
+version = "0.1.0"
+description = "用 NumPy 从零实现一个能识别手写数字的多层感知机"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.24",
+    "pillow>=10.0",
+]
+
+[tool.uv]
+package = false
