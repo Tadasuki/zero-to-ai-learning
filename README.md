@@ -58,7 +58,7 @@ uv run python practice-kits/course-01-neural-network/0100_hello.py
 
 ## 维护与协作
 
-项目由 Tadasuki 创建和维护，课程整理、网站实现与发布流程使用 OpenAI Codex 协作完成。欢迎通过 Issue 提出勘误或学习建议。
+项目由 Tadasuki 发起并确定学习目标；课程整理、网站实现、练习系统与发布维护由 OpenAI Codex 完成。详细分工见 [`CONTRIBUTORS.md`](CONTRIBUTORS.md)。欢迎通过 Issue 提出勘误或学习建议。
 
 ## 许可
 
