@@ -6,21 +6,21 @@
 
 ## 文件顺序
 
-- `00_linear_regression.py`：回归到底在解决什么
-- `01_linear_regression.py`：特征、标签与一行数据
-- `02_linear_regression.py`：清洗 CSV 与缺失值
-- `03_linear_regression.py`：划分训练集、验证集和测试集
-- `04_linear_regression.py`：直线模型 y=wx+b
-- `05_linear_regression.py`：向量化批量预测
-- `06_linear_regression.py`：MSE 与 MAE：怎样衡量错多少
-- `07_linear_regression.py`：梯度：哪边是下坡
-- `08_linear_regression.py`：推导 dw 与 db
-- `09_linear_regression.py`：写出梯度下降训练循环
-- `10_linear_regression.py`：标准化与学习率
-- `11_linear_regression.py`：基线、MAE、RMSE 与 R²
-- `12_linear_regression.py`：过拟合与正则化
-- `13_linear_regression.py`：从一个特征到多个特征
-- `14_linear_regression.py`：完成并解释预测项目
+- `0200_linear_regression.py`：回归到底在解决什么
+- `0201_linear_regression.py`：特征、标签与一行数据
+- `0202_linear_regression.py`：清洗 CSV 与缺失值
+- `0203_linear_regression.py`：划分训练集、验证集和测试集
+- `0204_linear_regression.py`：直线模型 y=wx+b
+- `0205_linear_regression.py`：向量化批量预测
+- `0206_linear_regression.py`：MSE 与 MAE：怎样衡量错多少
+- `0207_linear_regression.py`：梯度：哪边是下坡
+- `0208_linear_regression.py`：推导 dw 与 db
+- `0209_linear_regression.py`：写出梯度下降训练循环
+- `0210_linear_regression.py`：标准化与学习率
+- `0211_linear_regression.py`：基线、MAE、RMSE 与 R²
+- `0212_linear_regression.py`：过拟合与正则化
+- `0213_linear_regression.py`：从一个特征到多个特征
+- `0214_linear_regression.py`：完成并解释预测项目
 
 ## 自检规则
 

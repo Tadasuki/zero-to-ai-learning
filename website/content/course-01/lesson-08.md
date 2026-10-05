@@ -37,6 +37,6 @@ ReLU(z) = max(0, z)
 
 负数变为 0，正数保留。激活函数让多层网络能够表示弯曲、复杂的边界；如果没有非线性激活，多层线性计算最终仍等价于一层线性计算。
 
-<div class="exercise"><strong>本节动手任务</strong><ol><li>打开 `practice-kits/03_neuron.py`。</li><li>创建三个输入和三个权重。</li><li>不用 NumPy，先用乘法和加法手算 z。</li><li>调用你之前写的 relu 函数得到输出。</li><li>分别改变一个权重和偏置，观察输出怎样变化。</li></ol></div>
+<div class="exercise"><strong>本节动手任务</strong><ol><li>打开 `practice-kits/course-01-neural-network/0103_neuron.py`。</li><li>创建三个输入和三个权重。</li><li>不用 NumPy，先用乘法和加法手算 z。</li><li>调用你之前写的 relu 函数得到输出。</li><li>分别改变一个权重和偏置，观察输出怎样变化。</li></ol></div>
 
 <details class="checkpoint"><summary>自检：训练时会直接修改输入图片吗？</summary><p>不会。训练主要修改权重和偏置。输入图片是样本，参数才是模型学习到的内容。</p></details>

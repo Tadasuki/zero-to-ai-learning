@@ -297,7 +297,7 @@ def main() -> None:
             (content_dir / f"{lesson_id}.md").write_text(
                 lesson_markdown(course, index, item, info["project"]), encoding="utf-8"
             )
-            (kit_dir / f"{index:02d}_{info['slug'].replace('-', '_')}.py").write_text(
+            (kit_dir / f"{course:02d}{index:02d}_{info['slug'].replace('-', '_')}.py").write_text(
                 kit_file(course, index, item), encoding="utf-8"
             )
             all_challenges[lesson_id] = challenge_for(course, index, item[0], item[5])
@@ -305,7 +305,7 @@ def main() -> None:
         data_suffix = "json" if info["data"].lstrip().startswith("{") else "csv"
         (kit_dir / "data" / f"sample.{data_suffix}").write_text(info["data"], encoding="utf-8")
         lesson_list = "\n".join(
-            f"- `{i:02d}_{info['slug'].replace('-', '_')}.py`：{item[0]}"
+            f"- `{course:02d}{i:02d}_{info['slug'].replace('-', '_')}.py`：{item[0]}"
             for i, item in enumerate(info["lessons"])
         )
         (kit_dir / "README.md").write_text(

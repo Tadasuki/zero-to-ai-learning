@@ -50,6 +50,6 @@ row = grid.reshape(4)
 
 <div class="callout callout-yellow"><strong>最重要的调试习惯</strong><br>神经网络报错时，先打印每个变量的 <code>shape</code>。很多问题不是公式错了，而是行列没有对齐。</div>
 
-<div class="exercise"><strong>本节动手任务</strong><ol><li>在 `practice-kits/02_numpy_practice.py` 中创建一个 2×3 数组。</li><li>打印它的 shape、第一行和第二列。</li><li>把它 reshape 成长度为 6 的数组。</li><li>计算所有元素的最大值和平均值。</li></ol></div>
+<div class="exercise"><strong>本节动手任务</strong><ol><li>在 `practice-kits/course-01-neural-network/0102_numpy_practice.py` 中创建一个 2×3 数组。</li><li>打印它的 shape、第一行和第二列。</li><li>把它 reshape 成长度为 6 的数组。</li><li>计算所有元素的最大值和平均值。</li></ol></div>
 
 <details class="checkpoint"><summary>自检：(100, 784) 表示什么？</summary><p>表示有 100 个样本，每个样本有 784 个特征。对于 MNIST，可以理解为一次处理 100 张被拉平的 28×28 图片。</p></details>

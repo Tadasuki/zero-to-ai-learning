@@ -37,6 +37,6 @@ rng = np.random.default_rng(42)
 
 种子 `42` 让随机结果可复现，便于比较实验。你还没有写完整网络，这里只需要理解为什么需要随机初始化。
 
-<div class="exercise"><strong>本节动手任务</strong><ol><li>在纸上写出 x、w1、b1、w2、b2 的 shape。</li><li>在 `practice-kits/04_mlp.py` 中只创建这些数组并打印 shape。</li><li>暂时不要写损失或反向传播。</li><li>确认第一层结果是 `(批量大小, 64)`，第二层是 `(批量大小, 10)`。</li></ol></div>
+<div class="exercise"><strong>本节动手任务</strong><ol><li>在纸上写出 x、w1、b1、w2、b2 的 shape。</li><li>在 `practice-kits/course-01-neural-network/0104_mlp.py` 中只创建这些数组并打印 shape。</li><li>暂时不要写损失或反向传播。</li><li>确认第一层结果是 `(批量大小, 64)`，第二层是 `(批量大小, 10)`。</li></ol></div>
 
 <details class="checkpoint"><summary>自检：为什么输出层是 10 个神经元？</summary><p>因为任务有 10 个类别，分别对应数字 0～9。每个输出位置负责一个类别的分数。</p></details>

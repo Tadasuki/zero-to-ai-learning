@@ -12,7 +12,7 @@ description: 不复制完整答案，按照输入输出契约逐个完成初始�
 
 # 亲手写出前向传播
 
-<p class="lesson-lead">从这一节开始，你在 `practice-kits/04_mlp.py` 中搭自己的网络。网站只给函数目标、输入输出和检查方法，不给整段完成代码。</p>
+<p class="lesson-lead">从这一节开始，你在 `practice-kits/course-01-neural-network/0104_mlp.py` 中搭自己的网络。网站只给函数目标、输入输出和检查方法，不给整段完成代码。</p>
 
 ## 任务 1：初始化参数
 

@@ -47,6 +47,6 @@ loss = 0.38
 print(f"当前损失是 {loss}")
 ```
 
-<div class="exercise"><strong>本节动手任务</strong><ol><li>在 `practice-kits/01_python_basics.py` 中创建三个变量：学习轮数、学习率、课程名称。</li><li>计算 <code>输入 × 权重 + 偏置</code>，输入用 0.8，权重用 0.5，偏置用 0.1。</li><li>用 f-string 打印“神经元输出是 ……”。</li></ol><p>预期数值是 0.5，但请自己写表达式得到它。</p></div>
+<div class="exercise"><strong>本节动手任务</strong><ol><li>在 `practice-kits/course-01-neural-network/0101_python_basics.py` 中创建三个变量：学习轮数、学习率、课程名称。</li><li>计算 <code>输入 × 权重 + 偏置</code>，输入用 0.8，权重用 0.5，偏置用 0.1。</li><li>用 f-string 打印“神经元输出是 ……”。</li></ol><p>预期数值是 0.5，但请自己写表达式得到它。</p></div>
 
 <details class="checkpoint"><summary>自检：为什么学习率通常是 float？</summary><p>学习率通常是小于 1 的小数，用来控制每次参数更新的步长，因此应使用能够表示小数的 float。</p></details>

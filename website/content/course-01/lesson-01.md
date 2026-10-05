@@ -28,7 +28,7 @@ cd "/Users/jocelyn/Desktop/神经网络/starter"
 
 ## 第一条 Python 语句：print
 
-打开 `practice-kits/00_hello.py`，亲手输入：
+打开 `practice-kits/course-01-neural-network/0100_hello.py`，亲手输入：
 
 ```python
 print("你好，我正在学习 Python")
@@ -39,7 +39,7 @@ print("你好，我正在学习 Python")
 运行：
 
 ```bash
-uv run python practice-kits/00_hello.py
+uv run python practice-kits/course-01-neural-network/0100_hello.py
 ```
 
 你应该看到 `你好，我正在学习 Python`。

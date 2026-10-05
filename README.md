@@ -38,7 +38,7 @@ python3 -m http.server 4173 --directory website
 
 ```bash
 uv sync
-uv run python practice-kits/00_hello.py
+uv run python practice-kits/course-01-neural-network/0100_hello.py
 ```
 
 ## 内容维护
@@ -48,6 +48,7 @@ uv run python practice-kits/00_hello.py
 - 浏览器实验：`website/challenges.js` 与 `website/challenges-expanded.js`；
 - 覆盖矩阵：`docs/COVERAGE.md`、`docs/COVERAGE_ALL.md`；
 - 进阶课程同步生成：`python3 tools/generate_advanced_courses.py`。
+- 下载包重新打包：`python3 tools/build_practice_zip.py`。
 
 修改课程后运行 `python3 website/build.py`。推送到 `main` 后，Cloudflare Pages 会自动构建并发布。
 

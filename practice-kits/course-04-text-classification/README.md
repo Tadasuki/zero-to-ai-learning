@@ -6,21 +6,21 @@
 
 ## 文件顺序
 
-- `00_text_classification.py`：文本分类在判断什么
-- `01_text_classification.py`：Unicode、字符与分词
-- `02_text_classification.py`：清洗与规范化
-- `03_text_classification.py`：只用训练集建立词表
-- `04_text_classification.py`：词袋：先数词，不看顺序
-- `05_text_classification.py`：TF-IDF 降低常见词影响
-- `06_text_classification.py`：N-gram 给词袋一点顺序
-- `07_text_classification.py`：线性打分与 Sigmoid
-- `08_text_classification.py`：二元交叉熵与梯度
-- `09_text_classification.py`：训练一个逻辑回归文本模型
-- `10_text_classification.py`：划分文本数据并防止泄漏
-- `11_text_classification.py`：准确率之外：精确率与召回率
-- `12_text_classification.py`：读错例：否定、反讽与领域词
-- `13_text_classification.py`：保存完整文本管线
-- `14_text_classification.py`：完成短评情感分类器
+- `0400_text_classification.py`：文本分类在判断什么
+- `0401_text_classification.py`：Unicode、字符与分词
+- `0402_text_classification.py`：清洗与规范化
+- `0403_text_classification.py`：只用训练集建立词表
+- `0404_text_classification.py`：词袋：先数词，不看顺序
+- `0405_text_classification.py`：TF-IDF 降低常见词影响
+- `0406_text_classification.py`：N-gram 给词袋一点顺序
+- `0407_text_classification.py`：线性打分与 Sigmoid
+- `0408_text_classification.py`：二元交叉熵与梯度
+- `0409_text_classification.py`：训练一个逻辑回归文本模型
+- `0410_text_classification.py`：划分文本数据并防止泄漏
+- `0411_text_classification.py`：准确率之外：精确率与召回率
+- `0412_text_classification.py`：读错例：否定、反讽与领域词
+- `0413_text_classification.py`：保存完整文本管线
+- `0414_text_classification.py`：完成短评情感分类器
 
 ## 自检规则
 

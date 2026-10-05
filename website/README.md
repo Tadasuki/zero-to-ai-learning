@@ -22,4 +22,4 @@ python3 website/build.py
 
 `build.py` 会递归读取 `content/` 并生成 `content.js`。`challenges.js` 保存第一课实验，`challenges-expanded.js` 保存 02–05 的实验；`python-worker.js` 在独立 Worker 中加载 Pyodide。
 
-学员练习源文件位于根目录 `practice-kits/`。不要直接编辑 `downloads/` 内 ZIP，应从练习源文件重新打包。
+学员练习源文件位于根目录 `practice-kits/`。不要直接编辑 `downloads/` 内 ZIP；修改素材后运行 `python3 tools/build_practice_zip.py` 重新打包。

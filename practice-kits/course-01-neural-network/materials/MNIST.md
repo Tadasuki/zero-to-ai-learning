@@ -2,7 +2,7 @@
 
 MNIST 包含 60,000 张训练图片和 10,000 张测试图片，每张图片是 28×28 灰度图，标签为 0～9。
 
-当前项目的 `train.py` 中保留了数据下载和 IDX 文件解析方式，供课程维护者核对素材。学员在第 14 节应自己把“读取、reshape、归一化”步骤写入 `practice-kits/05_train.py`。
+当前项目的 `train.py` 中保留了数据下载和 IDX 文件解析方式，供课程维护者核对素材。学员在第 14 节应自己把“读取、reshape、归一化”步骤写入 `practice-kits/course-01-neural-network/0105_train.py`。
 
 数据文件不会提交到 GitHub。运行下载流程后，本地文件放在项目根目录的 `data/`。
 

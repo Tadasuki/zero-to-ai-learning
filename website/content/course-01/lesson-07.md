@@ -37,7 +37,7 @@ normalized = pixels.astype(np.float32) / 255.0
 
 ## 本课素材
 
-`practice-kits/materials/` 会保存数据说明。真正训练时，下载脚本会把 MNIST 放进 `data/`，不需要把大数据文件提交到 GitHub。
+`practice-kits/course-01-neural-network/materials/` 会保存数据说明。真正训练时，下载脚本会把 MNIST 放进 `data/`，不需要把大数据文件提交到 GitHub。
 
 <div class="exercise"><strong>本节动手任务</strong><ol><li>画一个 4×4 的黑白小图，并把每个格子写成 0 或 1。</li><li>按行把它拉平成长度为 16 的列表。</li><li>写出它的 shape 从 `(4,4)` 变成 `(16,)` 的过程。</li><li>解释为什么测试集不能参与权重更新。</li></ol></div>
 
